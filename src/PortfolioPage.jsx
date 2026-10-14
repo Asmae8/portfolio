@@ -92,7 +92,7 @@ function PortraitPlaceholder() {
     <div className="portrait-frame">
       <img
         className="portrait-image"
-        src="/WhatsApp%20Image%202026-10-11%20at%2022.22.05.jpeg"
+        src={`${import.meta.env.BASE_URL}WhatsApp%20Image%202026-10-11%20at%2022.22.05.jpeg`}
         alt="Portrait d’Asmae Elaasri"
       />
     </div>
