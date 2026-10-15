@@ -327,6 +327,15 @@ a:focus-visible {
   line-height: 1.04;
 }
 
+.intro-inner > h2,
+.education-section .section-heading h2,
+.projects-heading .section-heading h2,
+.experience-section .section-heading h2 {
+  color: var(--ink);
+  opacity: 1;
+  visibility: visible;
+}
+
 .heading-rule {
   display: block;
   width: 58px;
@@ -744,6 +753,16 @@ a:focus-visible {
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.intro-inner.reveal,
+.education-section .section-container > .reveal,
+.projects-heading > .reveal,
+.experience-section .section-container > .reveal {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: none;
 }
 
 @media (max-width: 880px) {
