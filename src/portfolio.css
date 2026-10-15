@@ -171,6 +171,7 @@ a:focus-visible {
 
 .hero-copy h1 {
   max-width: 620px;
+  color: var(--ink);
   font-size: clamp(54px, 7vw, 90px);
   line-height: 0.97;
 }
