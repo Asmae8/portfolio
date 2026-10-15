@@ -125,7 +125,6 @@ export const portfolio = {
         'Conception du backend avec Django REST Framework (Python)',
         'Développement du frontend avec React.js et TypeScript',
         'Gestion des bases de données SQLite en développement et PostgreSQL',
-        'Création et sécurisation d’API REST pour la gestion des produits et des mouvements de stock',
       ],
       technologies: ['Django REST Framework', 'React.js', 'TypeScript', 'SQLite', 'PostgreSQL'],
     },
