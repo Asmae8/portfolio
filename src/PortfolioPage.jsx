@@ -176,6 +176,7 @@ function PortfolioPage() {
           <div className="hero-inner">
             <Reveal className="hero-copy">
               <p className="eyebrow">Portfolio · {portfolio.location}</p>
+              <p className="hero-greeting">Bonjour, moi c’est</p>
               <h1>{portfolio.name}</h1>
               <p className="hero-role">{portfolio.role}</p>
               <p className="hero-introduction">{portfolio.introduction}</p>
@@ -192,16 +193,16 @@ function PortfolioPage() {
         </section>
 
         <section className="intro-strip" id="apropos">
-          <Reveal className="intro-inner">
+          <div className="intro-inner">
             <p className="eyebrow">À propos</p>
             <h2>Le numérique, avec intention.</h2>
             <p>{portfolio.about}</p>
-          </Reveal>
+          </div>
         </section>
 
         <section className="content-section education-section" id="formation">
           <div className="section-container">
-            <Reveal><SectionHeading eyebrow="Parcours" title="Formation" /></Reveal>
+            <SectionHeading eyebrow="Parcours" title="Formation" />
             <div className="education-list">
               {portfolio.education.map((item) => (
                 <Reveal key={item.school} className="education-item">
@@ -229,7 +230,7 @@ function PortfolioPage() {
 
         <section className="projects-section" id="projets">
           <div className="section-container projects-heading">
-            <Reveal><SectionHeading eyebrow="Sélection" title="Projets" /></Reveal>
+            <SectionHeading eyebrow="Sélection" title="Projets" />
           </div>
           {portfolio.projects.map((project, index) => (
             <Project key={project.number} project={project} reverse={index % 2 === 1} />
@@ -238,7 +239,7 @@ function PortfolioPage() {
 
         <section className="content-section experience-section" id="experiences">
           <div className="section-container">
-            <Reveal><SectionHeading eyebrow="En entreprise" title="Expériences professionnelles" /></Reveal>
+            <SectionHeading eyebrow="En entreprise" title="Expériences professionnelles" />
             <div className="experience-list">
               {portfolio.experience.map((item) => (
                 <Reveal key={item.company}><ExperienceItem item={item} /></Reveal>

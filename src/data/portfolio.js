@@ -5,7 +5,7 @@ export const portfolio = {
   introduction:
     "Élève ingénieure en 5e année à l’EMSI, spécialisée en développement digital et systèmes d’information.",
   about:
-    "En 5e année du cycle ingénieur en Génie Informatique à l’EMSI, je me spécialise en développement digital et systèmes d’information. Je souhaite mettre en pratique mes compétences et acquérir une expérience professionnelle concrète dans le cadre d’un stage PFE de six mois, à partir de janvier ou février 2027. Basée à Casablanca.",
+    "En 5e année du cycle ingénieur en Génie Informatique à l’EMSI, je me spécialise en développement digital et systèmes d’information. Je souhaite mettre en pratique mes compétences et acquérir une expérience professionnelle concrète dans le cadre d’un stage PFE de six mois, à partir de janvier ou février 2027. Basée à Casablanca. Je suis une personne ponctuelle et intègre, et je suis également capable d’apprendre rapidement de nouvelles technologies et de m’adapter aux besoins d’une équipe.",
   contact: {
     email: 'asmaeelassri4@gmail.com',
     phone: '+212 678-843942',

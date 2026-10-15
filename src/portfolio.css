@@ -148,6 +148,15 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.hero-greeting {
+  margin: -8px 0 14px;
+  color: var(--ink-soft);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
 .hero-copy h1,
 .section-heading h2,
 .intro-inner h2,
@@ -332,8 +341,6 @@ a:focus-visible {
 .projects-heading .section-heading h2,
 .experience-section .section-heading h2 {
   color: var(--ink);
-  opacity: 1;
-  visibility: visible;
 }
 
 .heading-rule {
@@ -755,16 +762,6 @@ a:focus-visible {
   transform: translateY(0);
 }
 
-.intro-inner.reveal,
-.education-section .section-container > .reveal,
-.projects-heading > .reveal,
-.experience-section .section-container > .reveal {
-  opacity: 1;
-  visibility: visible;
-  transform: none;
-  transition: none;
-}
-
 @media (max-width: 880px) {
   .site-header {
     min-height: 68px;
@@ -887,6 +884,10 @@ a:focus-visible {
   }
 
   .hero-role {
+    font-size: 22px;
+  }
+
+  .hero-greeting {
     font-size: 22px;
   }
 
