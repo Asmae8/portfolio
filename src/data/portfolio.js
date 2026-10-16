@@ -67,7 +67,7 @@ export const portfolio = {
         'Données gérées avec Entity Framework Core et migrations',
       ],
       technologies: ['ASP.NET Core MVC', 'Entity Framework Core'],
-      visualLabel: 'Visuel du projet à ajouter',
+      image: 'gestion-hoteliere.jpeg',
       theme: 'light',
     },
     {
@@ -81,7 +81,7 @@ export const portfolio = {
         'Navigation organisée autour d’un menu drawer',
       ],
       technologies: ['React Native', 'Expo', 'Firebase'],
-      visualLabel: 'Visuel du projet à ajouter',
+      image: 'gestion-bibliotheque.jpeg',
       theme: 'dark',
     },
     {
@@ -95,7 +95,7 @@ export const portfolio = {
         'Authentification des utilisateurs',
       ],
       technologies: ['Spring Boot'],
-      visualLabel: 'Visuel du projet à ajouter',
+      image: 'gestion-caritative.jpeg',
       theme: 'light',
     },
   ],

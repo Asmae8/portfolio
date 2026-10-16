@@ -114,11 +114,8 @@ function SkillGroup({ group }) {
 
 function ProjectArtwork({ project }) {
   return (
-    <div className={`project-art project-art-${project.number}`} aria-label={project.visualLabel}>
-      <span className="art-index" aria-hidden="true">{project.number}</span>
-      <span className="art-line art-line-one" aria-hidden="true" />
-      <span className="art-line art-line-two" aria-hidden="true" />
-      <span className="art-caption">{project.visualLabel}</span>
+    <div className={`project-art project-art-${project.number}`}>
+      <img src={`${import.meta.env.BASE_URL}${project.image}`} alt={project.title} />
     </div>
   )
 }
