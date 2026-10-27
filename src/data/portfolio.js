@@ -86,13 +86,15 @@ export const portfolio = {
     },
     {
       number: '03',
-      title: 'Gestion caritative',
+      title: ' Gestion de Charité (Architecture Microservices)',
       subtitle: 'Application web',
       description:
         'Application web de gestion des dons et des actions caritatives.',
       features: [
-        'Gestion des participants et des organisations',
-        'Authentification des utilisateurs',
+        ' 	Conception d une architecture microservices avec Eureka (découverte) et API Gateway (routage dynamique)',
+         	'Sécurisation des services via Spring Security et authentification par JWT',
+ 	       'Isolation des données par microservice et communication inter-services via OpenFeign',
+
       ],
       technologies: ['Spring Boot'],
       image: 'gestion-caritative.jpeg',
